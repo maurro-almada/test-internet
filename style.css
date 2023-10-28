@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    margin-top: 2rem;
+    font-family: 'Patua One', serif;
+    color: white;
+}
+body{
+    background-color: #011627;
+    text-align: center;
+}
+#main1{
+    width: 40vw;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+    margin-top: 3.5rem;
+    background-color: #3D3B8E;
+    border-radius: 30px 30px 0 0;   
+}
+#btn{
+    font-weight: bold;
+    font-size: 30px;
+    padding: 12px;
+    border-radius: 20px;
+    background-color: #FFBA08;
+    color: black;
+    cursor: pointer;
+    outline: 2px solid black;
+}
+#main2{
+    width: 40vw;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+    background-color: #00798C;
+    font-size: 30px;
+    font-family: 'Patua One', serif;
+    border-radius: 0 0 30px 30px;
+    color: white;
+}
+#wificheck{
+    width: 120px;
+}
+#loading{
+    color: #EFCA08;
+}
+#Mbs, #Kbs, #Bits{
+    font-size: 35px;
+    color: #FFBA08;
+}
+
+@media (max-width: 1100px) {
+    #main2{
+ font-size: 25px;
+    }
+ #Mbs, #Kbs, #Bits{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 930px) {
+    #main2{
+ font-size: 20px;
+    }
+
+ #Mbs, #Kbs, #Bits{
+        font-size: 25px;
+    }
+
+}
+
+@media (max-width: 750px) {
+    #main2{
+    font-size: 20px;
+    background-color: #011627;
+    }
+    span{
+        margin-bottom: 15px;
+    }
+    #main1{
+        background-color: #011627;
+    }
+    #wificheck{
+        display: none;
+    }
+}
